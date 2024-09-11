@@ -1,0 +1,141 @@
+Ejercicio 1 
+
+Considera un lenguaje que conozcas bien y analízalo en términos de los cuatro componentes de un paradigma mencionados por Kuhn. 
+
+Generalización simbólica: ¿Cuáles son las reglas escritas del lenguaje? 
+
+Creencias de los profesionales: ¿Qué características particulares del lenguaje se cree que sean "mejores" que en otros lenguajes? 
+
+Valores: ¿Qué pensamiento o estilo de programación consideraron mejor los creadores 
+
+Ejemplares: ¿Qué clase de problemas pueden resolverse más fácilmente en el lenguaje? 
+
+ 
+ 
+1. Generalización simbólica (Reglas escritas del lenguaje): 
+
+Las reglas escritas de Java incluyen su sintaxis y semántica claramente definidas. Java es un lenguaje fuertemente tipado, lo que significa que cada variable debe declararse con un tipo específico, y las reglas de tipo deben cumplirse rigurosamente (por ejemplo, no puedes asignar un valor int a una variable String sin una conversión explícita). Las estructuras de control (como bucles y condicionales), la gestión de excepciones (usando try-catch), y la orientación a objetos (clases, herencia, interfaces, etc.) son elementos fundamentales de su generalización simbólica. 
+
+2. Creencias de los profesionales (Características particulares del lenguaje): 
+
+Los programadores de Java suelen valorar la portabilidad ("write once, run anywhere"), la fuerte orientación a objetos, y la seguridad del lenguaje. Java tiene un recolector de basura integrado (garbage collector), lo cual facilita la gestión de memoria comparado con otros lenguajes como C o C++. También se cree que la escalabilidad y la capacidad de manejar grandes aplicaciones empresariales son características destacadas, siendo preferido en entornos de desarrollo empresarial y backend debido a su robustez y estabilidad. 
+
+3. Valores (Estilo de programación promovido por los creadores): 
+
+Java fue diseñado para ser simple, robusto y seguro. Los creadores de Java valoraban la reutilización de código y la modularidad, promoviendo la programación orientada a objetos y la encapsulación. Las bibliotecas estándar de Java y su arquitectura orientada a objetos impulsan la creación de componentes de software reutilizables. Además, los creadores valoraron la seguridad, por lo que el lenguaje tiene características que limitan operaciones inseguras, como la gestión de memoria directa. 
+
+4. Ejemplares (Tipos de problemas que se resuelven fácilmente): 
+
+Java es especialmente bueno para construir aplicaciones empresariales a gran escala, sistemas distribuidos y aplicaciones que necesitan ser ejecutadas en diferentes plataformas sin cambios significativos en el código (gracias a la JVM). Es utilizado comúnmente en aplicaciones de servidor, sistemas web complejos y aplicaciones móviles (particularmente en Android). Java facilita la creación de aplicaciones que requieren una gestión avanzada de concurrencia, ya que provee un modelo robusto para trabajar con hilos (threads). 
+
+Este análisis en términos de Kuhn destaca cómo Java como lenguaje se ha establecido firmemente en el mundo de la programación gracias a su enfoque claro y las creencias que lo rodean, proporcionando una base sólida para resolver una amplia variedad de problemas. 
+
+ 
+ 
+ 
+ 
+ 
+Ejercicio 2 
+
+Considera un lenguaje que conozcas bien y analízalo en términos de los ejes propuestos para la elección de un lenguaje de programación (¿Cómo elegir un lenguaje? ) y responde: 
+
+¿Tiene una sintaxis y una semántica bien definida? ¿Existe documentación oficial? 
+
+¿Es posible comprobar el código producido en ese lenguaje? 
+
+¿Es confiable? 
+
+¿Es ortogonal? 
+
+¿Cuáles son sus características de consistencia y uniformidad? 
+
+¿Es extensible? ¿Hay subconjuntos de ese lenguaje? 
+
+El código producido, ¿es transportable? 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+  
+
+### 1. **¿Tiene una sintaxis y una semántica bien definida? ¿Existe documentación oficial?** 
+
+  
+
+- **Sintaxis y semántica**: Generalmente, los lenguajes de programación tienen una **sintaxis bien definida**, que describe cómo deben estructurarse los programas. La **semántica** define el significado de las instrucciones y las operaciones. Los lenguajes formales, como los basados en paradigmas (procedimentales, orientados a objetos, funcionales, etc.), cuentan con **sintaxis y semántica bien definidas**. También suelen contar con una **documentación oficial**, como manuales, estándares, o especificaciones formales que explican las reglas del lenguaje. 
+
+  
+
+### 2. **¿Es posible comprobar el código producido en ese lenguaje?** 
+
+  
+
+- **Comprobabilidad**: La **verificación del código** depende del lenguaje en cuestión. Algunos lenguajes permiten la **verificación formal** del código mediante pruebas estáticas, mientras que otros pueden requerir herramientas de análisis dinámico. Lenguajes como Java, C++, y Python permiten cierto grado de comprobación mediante tests, análisis de tipos, o depuración. 
+
+  
+
+### 3. **¿Es confiable?** 
+
+  
+
+- **Confiabilidad**: La **confiabilidad** de un lenguaje de programación depende de su capacidad para gestionar errores, seguridad, y consistencia en la ejecución. Los lenguajes bien establecidos, con soporte activo y extensas comunidades de usuarios, tienden a ser más confiables debido a su **madurez** y las numerosas bibliotecas y herramientas disponibles para garantizar un comportamiento predecible. 
+
+  
+
+### 4. **¿Es ortogonal?** 
+
+  
+
+- **Ortogonalidad**: Un lenguaje de programación es ortogonal cuando sus características pueden combinarse de diversas maneras sin que surjan comportamientos inesperados. Esto suele ser deseable porque **reduce la complejidad** del lenguaje y permite que las combinaciones de constructos funcionen de manera lógica y consistente. 
+
+  
+
+### 5. **¿Cuáles son sus características de consistencia y uniformidad?** 
+
+  
+
+- **Consistencia y uniformidad**: Un lenguaje consistente y uniforme aplica sus reglas de manera regular y predecible en todas las partes del programa. Esto significa que las construcciones similares tienen comportamientos similares, lo que **facilita el aprendizaje y el uso** del lenguaje. Lenguajes como Python, por ejemplo, son conocidos por su consistencia sintáctica. 
+
+  
+
+### 6. **¿Es extensible? ¿Hay subconjuntos de ese lenguaje?** 
+
+  
+
+- **Extensibilidad**: Algunos lenguajes son diseñados para ser **extensibles**, permitiendo a los desarrolladores agregar nuevas características mediante bibliotecas, módulos, o incluso **nuevas construcciones**. Esto facilita la adaptación del lenguaje a diferentes dominios. Además, ciertos lenguajes tienen **subconjuntos** utilizados para propósitos específicos (como lenguajes embebidos). 
+
+  
+
+### 7. **El código producido, ¿es transportable?** 
+
+  
+
+- **Portabilidad**: La portabilidad del código es la capacidad de **ejecutarse en diferentes plataformas** sin necesidad de cambios significativos. Los lenguajes que son altamente portables están diseñados para ser compatibles con múltiples sistemas operativos y arquitecturas de hardware. Un ejemplo común es Java, cuyo lema es "write once, run anywhere" debido a su máquina virtual (JVM) que facilita la portabilidad del código. 
+
+  
+
+### Conclusión: 
+
+- **Documentación, sintaxis y semántica** son fundamentales en los lenguajes formales, y en la mayoría de los casos están claramente definidas y soportadas por documentación oficial. 
+
+- La **comprobación** y **confiabilidad** varían según el lenguaje y sus herramientas asociadas. 
+
+- La **ortogonalidad** y la **consistencia** son deseables para facilitar la usabilidad y reducir errores inesperados. 
+
+- La **extensibilidad** es una característica clave en muchos lenguajes modernos, y la **portabilidad** es fundamental para garantizar que el código pueda ejecutarse en diferentes entornos sin problemas. 
+ 
+ 
+ 

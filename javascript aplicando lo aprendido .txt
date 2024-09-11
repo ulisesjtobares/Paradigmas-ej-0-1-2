@@ -1,0 +1,88 @@
+Parte A 
+
+Considera el lenguaje JavaScript acotado al paradigma de programación estructurada y analízalo en términos de los cuatro componentes de un paradigma mencionados por Kuhn. 
+
+Generalización simbólica: ¿Cuáles son las reglas escritas del lenguaje? 
+
+Creencias de los profesionales: ¿Qué características particulares del lenguaje se cree que sean "mejores" que en otros lenguajes? 
+
+Parte B 
+
+Considera el lenguaje JavaScript acotado al paradigma de programación estructurada y analízalo en términos de los ejes propuestos para la elección de un lenguaje de programación (¿Cómo elegir un lenguaje? ) y responde: 
+
+¿Tiene una sintaxis y una semántica bien definida? ¿Existe documentación oficial? 
+
+¿Es posible comprobar el código producido en ese lenguaje? 
+
+¿Es confiable? 
+
+¿Es ortogonal? 
+
+¿Cuáles son sus características de consistencia y uniformidad? 
+
+¿Es extensible? ¿Hay subconjuntos de ese lenguaje? 
+
+El código producido, ¿es transportable? 
+
+ 
+ 
+ 
+### Parte A: Análisis de JavaScript en el Paradigma de Programación Estructurada 
+
+  
+
+1. **Generalización simbólica**:  
+
+   - Las reglas escritas de JavaScript incluyen su sintaxis y semántica, que son fundamentales para la programación estructurada. JavaScript utiliza una sintaxis basada en C, lo que significa que emplea llaves `{}` para definir bloques de código y punto y coma `;` para finalizar declaraciones. La semántica de JavaScript se basa en la ejecución de instrucciones secuenciales, el uso de funciones como bloques de construcción y la manipulación de estructuras de control como bucles (`for`, `while`) y condicionales (`if`, `switch`). 
+
+  
+
+2. **Creencias de los profesionales**:  
+
+   - Los profesionales suelen creer que JavaScript es superior en términos de flexibilidad y facilidad de uso para el desarrollo web. Se valora su capacidad para integrarse fácilmente con HTML y CSS, lo que lo convierte en una herramienta esencial para la creación de interfaces interactivas. Además, su naturaleza interpretada permite un ciclo de desarrollo rápido, lo que es considerado una ventaja en comparación con lenguajes compilados. La amplia comunidad y la disponibilidad de bibliotecas y frameworks (como jQuery, React, etc.) también son vistas como características que mejoran la productividad y la eficiencia en el desarrollo. 
+
+  
+
+### Parte B: Análisis de JavaScript en Términos de Ejes para la Elección de un Lenguaje de Programación 
+
+  
+
+1. **¿Tiene una sintaxis y una semántica bien definida? ¿Existe documentación oficial?** 
+
+   - Sí, JavaScript tiene una sintaxis y semántica bien definidas. La documentación oficial está disponible a través de recursos como MDN Web Docs, que proporciona guías completas sobre la sintaxis, las funciones y las mejores prácticas. 
+
+  
+
+2. **¿Es posible comprobar el código producido en ese lenguaje?** 
+
+   - Sí, es posible comprobar el código en JavaScript. Existen herramientas de análisis estático como ESLint que ayudan a identificar errores y problemas de estilo en el código. Además, se pueden realizar pruebas unitarias utilizando frameworks como Jest o Mocha. 
+
+  
+
+3. **¿Es confiable?** 
+
+   - La confiabilidad de JavaScript ha mejorado con el tiempo, especialmente con la introducción de ECMAScript 6 y versiones posteriores. Sin embargo, la naturaleza dinámica del lenguaje puede llevar a errores en tiempo de ejecución si no se manejan adecuadamente. La comunidad activa y las herramientas de desarrollo contribuyen a mejorar la confiabilidad. 
+
+  
+
+4. **¿Es ortogonal?** 
+
+   - JavaScript no es completamente ortogonal, ya que algunas características pueden interactuar de maneras inesperadas. Por ejemplo, el comportamiento de coerción de tipos puede llevar a resultados no intuitivos. Sin embargo, muchos de sus constructos pueden combinarse de manera lógica. 
+
+  
+
+5. **¿Cuáles son sus características de consistencia y uniformidad?** 
+
+   - JavaScript ha mejorado en términos de consistencia y uniformidad, especialmente con la estandarización de ECMAScript. Sin embargo, la existencia de múltiples formas de hacer lo mismo (por ejemplo, diferentes maneras de declarar variables: `var`, `let`, `const`) puede generar confusión. 
+
+  
+
+6. **¿Es extensible? ¿Hay subconjuntos de ese lenguaje?** 
+
+   - JavaScript es extensible, permitiendo a los desarrolladores crear bibliotecas y frameworks que amplían su funcionalidad. Existen subconjuntos como TypeScript, que añade tipado estático a JavaScript, y lenguajes como CoffeeScript que se compilan a JavaScript. 
+
+  
+
+7. **El código producido, ¿es transportable?** 
+
+   - Sí, el código JavaScript es altamente transportable, ya que se ejecuta en cualquier navegador moderno y en entornos de servidor como Node.js. Esto permite que el mismo código funcione en diferentes plataformas sin necesidad de modificaciones significativas. 
